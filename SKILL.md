@@ -7,7 +7,7 @@ description: >
   (square-root model), spread, commission and slippage, benchmarks fills
   against interval VWAP / TWAP from minute bars, and outputs a Chinese
   attribution report.
-license: GPL-3.0
+license: GPL-3.0-only
 category: 工具
 metadata:
   organization: QuantSkills

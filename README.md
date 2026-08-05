@@ -1,5 +1,7 @@
 # skill-transaction-cost-analysis
 
+[English](README.en.md)
+
 A股/跨市场 **交易成本分析 (TCA)** —— 输入成交记录 fills，用分钟线重建区间 VWAP/TWAP，按 **Perold implementation shortfall** 框架把执行成本拆成五项（bps）：**择时、市场冲击(square-root 模型)、点差、佣金税费、滑点**，逐笔计算 + 按 symbol/side 聚合，输出总成本 bps 与瀑布分解。
 
 > QuantSkills 组织技能 · 数据源 Pandadata · 仅供研究参考，不构成投资建议。
@@ -74,3 +76,7 @@ examples/      run_demo.py · sample_report.md · sample_data/(get_stock_min.jso
 ## 免责
 
 数据非实时。本工具仅用于研究与执行成本诊断方法论演示，不构成任何投资建议。
+
+## 许可证
+
+GPL-3.0-only，详见 [LICENSE](LICENSE)。
