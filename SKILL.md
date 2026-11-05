@@ -152,3 +152,7 @@ skill-transaction-cost-analysis/
 - A 股卖出印花税单独计入 fees；港美股用日线自带 `vwap`/`bid`/`ask` 提升精度。
 - 决策价(arrival)需用户提供或用下单前一分钟收盘价代理。
 - 只做研究/执行分析参考，不构成投资建议。
+
+## Pandadata compatibility
+
+[Pandadata 1.0.6 compatibility](references/pandadata-compatibility.md) — exact SDK baseline, validation scope, and shared guidance for all supported agent runtimes.
